@@ -10,6 +10,9 @@ namespace Bussiness.Configuration.Filters
 {
     public class ValidateFilterAttribute : ActionFilterAttribute
     {
+
+        //Bu filitre otomatik filitreleme yapmak amaçla yazılmıştır. Startupta tanımlandığında yanlış istek gelirse 
+        // bad request ile hataları döner.
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             if (!context.ModelState.IsValid)

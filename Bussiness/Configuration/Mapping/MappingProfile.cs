@@ -11,6 +11,9 @@ namespace Bussiness.Configuration.Mapping
 {
     public class MappingProfile : Profile
     {
+        //Objeleri maplamak için kullanılan bir sınıf 
+        //CreateMap<Destination, Source>(); şeklinde kullanılır.
+
         public MappingProfile()
         {
             CreateMap<Transaction, TransactionModelDto>();

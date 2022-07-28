@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.Configuration;
@@ -41,6 +41,7 @@ namespace TodebBitirmeProjesi
 
             }).AddFluentValidation(x =>
             {
+                //Validator sınılarının bu şekilde kullandim.
                 x.RegisterValidatorsFromAssemblyContaining<CreateCustomerDtoValidator>();
                 x.RegisterValidatorsFromAssemblyContaining<TransactionCreateDtoValidator>();
               
