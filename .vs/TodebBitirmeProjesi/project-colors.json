@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b60e9d4c-2b2c-47db-bce5-a2656cc336b7": {
+      "ProjectGuid": "b60e9d4c-2b2c-47db-bce5-a2656cc336b7",
+      "DisplayName": "API",
+      "ColorIndex": 0
+    },
+    "f9b92ed6-8004-46cd-b941-089b2a819d7e": {
+      "ProjectGuid": "f9b92ed6-8004-46cd-b941-089b2a819d7e",
+      "DisplayName": "API",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "df811703-df84-4d42-a4cb-ecbf8eb8edef": {
+      "ProjectGuid": "df811703-df84-4d42-a4cb-ecbf8eb8edef",
+      "DisplayName": "Bussiness",
+      "ColorIndex": 2
+    },
+    "445e223f-96c6-4b9f-9338-85d55b93089d": {
+      "ProjectGuid": "445e223f-96c6-4b9f-9338-85d55b93089d",
+      "DisplayName": "Dto",
+      "ColorIndex": 3
+    },
+    "5b491bf6-b7cc-4329-b11c-dcdbbafb3504": {
+      "ProjectGuid": "5b491bf6-b7cc-4329-b11c-dcdbbafb3504",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 4
+    },
+    "d5e9488a-fbe9-477e-a01c-597da4694a06": {
+      "ProjectGuid": "d5e9488a-fbe9-477e-a01c-597da4694a06",
+      "DisplayName": "Entity",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
